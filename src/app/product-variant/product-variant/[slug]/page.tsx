@@ -9,8 +9,8 @@ import { db } from "@/db";
 import { productTable, productVariantTable } from "@/db/schema";
 import { formatCentsToBRL } from "@/helpers/money";
 
-import ProductActions from "./components/product-actions.tsx";
-import VariantSelector from "./components/variant-selector.tsx";
+import ProductActions from "./components/product-actions";
+import VariantSelector from "./components/variant-selector";
 
 interface ProductVariantPageProps {
   params: Promise<{ slug: string }>;
